@@ -2,7 +2,7 @@
 title: User
 description: User resource. Register/Login/View/Delete
 published: true
-date: 2023-03-18T22:13:32.172Z
+date: 2023-03-18T22:14:04.458Z
 tags: model, user, resource
 editor: markdown
 dateCreated: 2023-03-18T21:57:12.902Z
@@ -32,7 +32,7 @@ with the following body data:
 }
 ```
 
-Will create a user named `Test` with the password `password`. 
+Will create a user named `Test` with the password `password` as long as the user does not already exist. 
 
 ## Body Data
 
