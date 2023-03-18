@@ -2,7 +2,7 @@
 title: User
 description: User resource. Register/Login/View/Delete
 published: true
-date: 2023-03-18T22:06:53.458Z
+date: 2023-03-18T22:11:43.815Z
 tags: model, user, resource
 editor: markdown
 dateCreated: 2023-03-18T21:57:12.902Z
@@ -12,8 +12,27 @@ The User resource handles registration, login, viewing info, updating, and delet
 
 # Register a User
 
-Send a `POST` to `/v1/user` with data.
+> Usernames must be unique. If someone else is already using the name, choose another.
+{.is-warning}
 
+Register a user. Registering is not required to use the site, and only allows a few extra features like deleting lists.
+
+## Example
+
+`POST /v1/user`
+
+with the following body data:
+
+```json
+{
+	"name": "Test",
+  "password": "password",
+  "password_confirmation": "password",
+  "email": ""
+}
+```
+
+Will create a user named `Test` with the password `password`. 
 
 ## Body Data
 
@@ -23,6 +42,11 @@ Send a `POST` to `/v1/user` with data.
 | password | required  | Password for the user. |
 | password_confirmation | required | Password confirmation. Must match `password` |
 | email    | optional  | EMail for the user. Optional. |
+
+## HTTP Responses
+
+| HTTP Code | Scenario |
+| 201       | The user was created successfully |
 
 # Login
 
