@@ -2,7 +2,7 @@
 title: User
 description: User resource. Register/Login/View/Delete
 published: true
-date: 2023-03-18T22:12:46.027Z
+date: 2023-03-18T22:13:08.705Z
 tags: model, user, resource
 editor: markdown
 dateCreated: 2023-03-18T21:57:12.902Z
@@ -46,7 +46,7 @@ Will create a user named `Test` with the password `password`.
 ## HTTP Responses
 
 | HTTP Code | Scenario |
-| --------- | -------- |
+| :-------: | -------- |
 | 201       | The user was created successfully |
 | 422       | The request was unable to be completed. Check the response message for details |
 
