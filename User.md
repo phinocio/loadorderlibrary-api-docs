@@ -2,7 +2,7 @@
 title: User
 description: User resource. Register/Login/View/Delete
 published: true
-date: 2023-03-18T22:13:08.705Z
+date: 2023-03-18T22:13:32.172Z
 tags: model, user, resource
 editor: markdown
 dateCreated: 2023-03-18T21:57:12.902Z
@@ -25,7 +25,7 @@ with the following body data:
 
 ```json
 {
-	"name": "Test",
+  "name": "Test",
   "password": "password",
   "password_confirmation": "password",
   "email": ""
