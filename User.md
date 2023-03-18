@@ -2,7 +2,7 @@
 title: User
 description: User resource. Register/Login/View/Delete
 published: true
-date: 2023-03-18T22:15:08.843Z
+date: 2023-03-18T22:16:31.848Z
 tags: model, user, resource
 editor: markdown
 dateCreated: 2023-03-18T21:57:12.902Z
@@ -36,7 +36,7 @@ Register a user. Registering is not required to use the site, and only allows a 
 
 ## Example
 
-`POST /v1/user`
+`POST /register`
 
 with the following body data:
 
