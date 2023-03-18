@@ -2,7 +2,7 @@
 title: User
 description: User resource. Register/Login/View/Delete
 published: true
-date: 2023-03-18T22:05:54.148Z
+date: 2023-03-18T22:06:08.503Z
 tags: model, user, resource
 editor: markdown
 dateCreated: 2023-03-18T21:57:12.902Z
@@ -20,7 +20,7 @@ Send a `POST` to `/v1/user` with data.
 |Parameter | Required? | Description            |
 |--------- | --------- | ---------------------- |
 | name     | required  | The username for the user. Used to log in. |
-| password | required  | 
+| password | required  | Password for the user. |
 game_id | required | The id of the game the list is for.
 is_private | optional | Whether the list is private or not. Defaults to `false` when not provided.
 files[] | required | The files for the list.
