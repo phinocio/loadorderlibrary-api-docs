@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-03-18T03:35:21.892Z
+date: 2023-03-18T03:35:43.136Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T03:13:36.986Z
@@ -18,5 +18,5 @@ The main route for API requests is `https://api.loadorderlibrary.com/v1`
 >	API docs are a work in progress. If you notice something confusing or wrong, please don't hesitate to contact me!
 {.is-info}
 
->	API is currently connected to the test database for testing. Lists being created <b>will</b> be deleted/lost and will <b>not</b> show up on the main site.
+>	API is currently connected to the test database for testing. Lists being created **will** be deleted/lost and will **not** show up on the main site.
 {.is-warning}
