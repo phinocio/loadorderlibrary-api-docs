@@ -2,21 +2,18 @@
 title: Users
 description: Overview of Users resource
 published: true
-date: 2023-03-18T22:27:16.848Z
+date: 2023-03-18T22:29:00.816Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:23:25.613Z
 ---
 
-The user resource has 4 possible actions
-
-1. Register
-1. Login
-1. View
-1. Delete
+A user is a... user. They can own lists, edit them, delete them, etc. While a user allows those actions, it is not required to register to make use of the site, creaing a list (private or public) is fully available to anonymous users.
 
 # List of Actions
 
 - [Register *Register a user*](/users/register)
 - [Login *Login a user*]()
+- [View *View a user's info*]()
+- [Delete *Delete a user*]()
 {.links-list}
