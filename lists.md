@@ -2,7 +2,7 @@
 title: Lists
 description: Overview for lists
 published: true
-date: 2023-03-25T01:24:57.545Z
+date: 2023-03-25T01:26:42.151Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:27.211Z
@@ -27,21 +27,19 @@ Note that `User Controllable` is referring to attributes that can be used in a `
 
 ## Name
 
-**Name:** `name`
-**Type:** `string`
-**User Controllable:** `Yes`
-**Description:** The name of the list
+| Name | Type   | User Controllable |
+| ---- | ------ | ----------------- |
+| name | string | Yes               |
 
-The name of the lists is, well, what the list is called. List names are not unique in the database - there can be any number of `My Awesome List!` lists.
+The name of the list is, well, what the list is called. List names are not unique in the database - there can be any number of `My Awesome List!` lists.
 
 ## Slug
 
-**Name:** `slug`
-**Type:** `string`
-**User Controllable:** `No`
-**Description:** The slug of the list, generated from the name. A unique identifier to a list, used in the url to get a specific list.
+| Name | Type   | User Controllable |
+| ---- | ------ | ----------------- |
+| name | string | No                |
 
-Slugs are generated on a "first come, first server" basis. The first person to create a list titled `My Awesome List!` will get the slug `my-awesome-list`. The next person will have a `-1` appended to the end, creating a `my-awesome-list-1` slug, and onwards. 
+Slugs are generated on a "first come, first serve" basis based on the `name` of the list. The first person to create a list titled `My Awesome List!` will get the slug `my-awesome-list`. The next person will have a `-1` appended to the end, creating a `my-awesome-list-1` slug, and onwards. 
 
 # Valid Files
 
