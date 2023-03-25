@@ -2,7 +2,7 @@
 title: Login
 description: Login a user
 published: true
-date: 2023-03-25T00:29:18.597Z
+date: 2023-03-25T00:36:28.166Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:32:46.930Z
@@ -16,7 +16,10 @@ dateCreated: 2023-03-18T22:32:46.930Z
 |-----|-------|
 | Content-Type | application/json |
 | Accept | application/json |
+| X-XSRF-Token | `<token value>` |
 
+> See [Authentication](/authentication) for info on how to get the `X-XSRF-Token` value.
+{.is-info}
 
 ## Body Data
 
