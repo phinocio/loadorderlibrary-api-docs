@@ -2,7 +2,7 @@
 title: Register a User
 description: API Request for registering a user
 published: true
-date: 2023-03-25T00:14:22.477Z
+date: 2023-03-25T00:15:16.578Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:22:11.710Z
@@ -37,11 +37,14 @@ ___
 
 ## HTTP Responses
 
-| HTTP Code | Scenario |
-| ------- | -------- |
-| 201       | The user was created successfully |
-| 422       | The request was unable to be completed. Check the response message for details |
-| 500       | Internal server error. Something when wrong with the request
+### Success Response
+
+**Code:** `HTTP 201 CREATED`
+**Content:**
+
+```json
+""
+```
 
 ## Example
 
