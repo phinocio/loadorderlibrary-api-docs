@@ -2,7 +2,7 @@
 title: Register a User
 description: API Request for registering a user
 published: true
-date: 2023-03-25T00:15:16.578Z
+date: 2023-03-25T00:19:32.666Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:22:11.710Z
@@ -35,7 +35,7 @@ ___
 | password | string | Yes | The password for the user account |
 | password_confirmation | string| Yes | The confirmation of the password for the user account |
 
-## HTTP Responses
+## Example HTTP Responses
 
 ### Success Response
 
@@ -46,7 +46,25 @@ ___
 ""
 ```
 
-## Example
+## Error Responses
+
+**Code:** `HTTP 422 UNPROCESSABLE ENTITY`
+**Content:**
+```json
+{
+    "message": "The name has already been taken. (and 1 more error)",
+    "errors": {
+        "name": [
+            "The name has already been taken."
+        ],
+        "password": [
+            "The password field is required."
+        ]
+    }
+}
+```
+
+## Example Usage
 
 `POST /register`
 
@@ -57,7 +75,7 @@ with the following body data:
   "name": "Test",
   "password": "password",
   "password_confirmation": "password",
-  "email": ""
+  "email": "optional@example.com"
 }
 ```
 
