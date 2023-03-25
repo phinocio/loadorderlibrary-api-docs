@@ -2,7 +2,7 @@
 title: Register a User
 description: API Request for registering a user
 published: true
-date: 2023-03-25T00:19:59.750Z
+date: 2023-03-25T00:24:23.462Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:22:11.710Z
@@ -77,4 +77,4 @@ ___
 }
 ```
 
-Will create a user named `Test` with the password `password` as long as the user does not already exist. Upon success, the response will be empty with `HTTP 201` status code.
+Will create a user named `Test` with the password `password` as long as the user does not already exist. Upon success, the response will be empty (`""`) with `HTTP 201` status code. On success, the user will also be logged in.
