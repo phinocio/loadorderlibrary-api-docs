@@ -2,7 +2,7 @@
 title: Register a User
 description: API Request for registering a user
 published: true
-date: 2023-03-18T22:22:11.710Z
+date: 2023-03-25T00:07:18.320Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:22:11.710Z
@@ -16,12 +16,12 @@ Register a user. Registering is not required to use the site, and only allows a 
 
 ## Body Data
 
-|Parameter | Required? | Description            |
-|--------- | --------- | ---------------------- |
-| name     | required  | The username for the user. Used to log in |
-| password | required  | Password for the user |
-| password_confirmation | required | Password confirmation. Must match `password` |
-| email    | optional  | EMail for the user. Optional |
+| Field |	Type | Required | Description |
+|-------|------|----------|-------------|
+| name  |string| Yes | The name of the user |
+| email	|string| No |The email address of the user |
+password	string	Yes	The password for the user account
+password_confirmation	string	Yes	The confirmation of the password for the user account
 
 ## HTTP Responses
 
