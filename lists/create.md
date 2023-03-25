@@ -2,7 +2,7 @@
 title: Create
 description: Create a list
 published: true
-date: 2023-03-25T01:07:32.634Z
+date: 2023-03-25T01:19:30.550Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:02.897Z
@@ -55,16 +55,16 @@ ___
     "data": {
         "name": "A Test List!",
         "version": null,
-        "slug": "a-test-list-1",
-        "url": "/v1/lists/a-test-list-1",
+        "slug": "a-test-list-3",
+        "url": "/v1/lists/a-test-list-3",
         "description": "A Description about the test list!",
         "website": "test.com",
         "discord": "example.com",
         "readme": null,
         "private": true,
         "expires": null,
-        "created": "2023-03-25T01:03:44.000000Z",
-        "updated": "2023-03-25T01:03:44.000000Z",
+        "created": "2023-03-25T01:19:17.000000Z",
+        "updated": "2023-03-25T01:19:17.000000Z",
         "author": {
             "name": "Test22",
             "email": null,
@@ -74,7 +74,6 @@ ___
             "updated": "2023-03-25T00:11:01.000000Z"
         },
         "game": {
-            "id": 1,
             "name": "TESIII Morrowind"
         },
         "files": [
@@ -94,8 +93,8 @@ ___
             }
         ],
         "links": {
-            "url": "http://localhost:3000/lists/a-test-list-1",
-            "self": "http://localhost/v1/lists/a-test-list-1"
+            "url": "http://localhost:3000/lists/a-test-list-3",
+            "self": "http://localhost/v1/lists/a-test-list-3"
         }
     }
 }
