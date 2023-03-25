@@ -2,7 +2,7 @@
 title: Register a User
 description: API Request for registering a user
 published: true
-date: 2023-03-25T00:09:45.456Z
+date: 2023-03-25T00:09:57.100Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:22:11.710Z
@@ -24,6 +24,7 @@ ___
 |-----|-------|
 | Content-Type | application/json |
 | Accepts | application/json |
+
 
 ## Body Data
 
