@@ -2,7 +2,7 @@
 title: Login
 description: Login a user
 published: true
-date: 2023-03-25T00:26:25.326Z
+date: 2023-03-25T00:27:36.549Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:32:46.930Z
@@ -34,12 +34,17 @@ ___
 
 ### Success Response
 
-**Code:** `HTTP 201 CREATED`
+**Code:** `HTTP 200 OK`
 **Content:**
 
 ```json
-""
+{
+    "two_factor": false
+}
 ```
+
+> Two factor authentication is currently disabled. 
+{.is-info}
 
 ### Error Responses
 
@@ -47,11 +52,8 @@ ___
 **Content:**
 ```json
 {
-    "message": "The name has already been taken. (and 1 more error)",
+    "message": "The password field is required.",
     "errors": {
-        "name": [
-            "The name has already been taken."
-        ],
         "password": [
             "The password field is required."
         ]
