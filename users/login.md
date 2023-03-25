@@ -2,7 +2,7 @@
 title: Login
 description: Login a user
 published: true
-date: 2023-03-25T00:27:36.549Z
+date: 2023-03-25T00:28:59.812Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:32:46.930Z
@@ -29,6 +29,9 @@ ___
 |-------|------|----------|-------------|
 | name  |string| Yes | The user's name |
 | password | string | Yes | The user's password |
+
+> Since emails are optional, the username is what is used to login.
+{.is-info}
 
 ## Example HTTP Responses
 
@@ -63,15 +66,13 @@ ___
 
 ## Example Usage
 
-`POST /register`
+`POST /login`
 
 ```json
 {
   "name": "Test",
-  "password": "password",
-  "password_confirmation": "password",
-  "email": "optional@example.com"
+  "password": "password"
 }
 ```
 
-Will create a user named `Test` with the password `password` as long as the user does not already exist. Upon success, the response will be empty (`""`) with `HTTP 201` status code. On success, the user will also be logged in.
+If the credentials match the database records, the user will be logged in. 
