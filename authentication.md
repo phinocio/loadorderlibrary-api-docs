@@ -2,7 +2,7 @@
 title: Authentication
 description: Authentication options for the API
 published: true
-date: 2023-03-18T04:03:29.752Z
+date: 2023-03-25T00:32:37.990Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T03:53:52.717Z
@@ -12,3 +12,7 @@ At the moment there is no need to authenticate as no user-tied data is present i
 
 >	Please send all requests with an `Accept: application/json` header. Otherwise you will sometimes get HTML returned back due to the nature of the underlying framework.
 {.is-info}
+
+# X-XSRF-Token
+
+Most requests require an `X-XSRF-Token` header to be present.
