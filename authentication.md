@@ -2,13 +2,15 @@
 title: Authentication
 description: Authentication options for the API
 published: true
-date: 2023-03-25T00:34:22.919Z
+date: 2023-03-25T01:30:10.759Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T03:53:52.717Z
 ---
 
-At the moment there is no need to authenticate as no user-tied data is present in the API. In the future one will be able to generate an API key from their user account for usage with 3rd party programs.
+User authentication is only necessary for users that wish to interact via the API. Anonymous users have many of the same abilities as those using accounts. The largest exceptions are the ability to edit and delete lists.
+
+More info on getting an authentication token will be available as I work on the API and implement it myself.
 
 >	Please send all requests with an `Accept: application/json` header. Otherwise you will sometimes get HTML returned back due to the nature of the underlying framework.
 {.is-info}
