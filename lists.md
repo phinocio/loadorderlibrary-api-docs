@@ -2,7 +2,7 @@
 title: Lists
 description: Overview for lists
 published: true
-date: 2023-03-25T01:14:39.486Z
+date: 2023-03-25T01:15:30.768Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:27.211Z
@@ -23,6 +23,7 @@ Your content hereA user is a... user. They can own lists, edit them, delete them
 
 ## Name
 
+**Name:** `name`
 **Type:** `string`
 **Description:** The name of the list
 
@@ -30,6 +31,7 @@ The name of the lists is, well, what the list is called. List names are not uniq
 
 ## Slug
 
+**Name:** `slug`
 **Type:** `string`
 **Description:** The slug of the list, generated from the name. A unique identifier to a list, used in the url to get a specific list.
 
