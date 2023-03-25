@@ -2,7 +2,7 @@
 title: Register a User
 description: API Request for registering a user
 published: true
-date: 2023-03-25T00:35:02.728Z
+date: 2023-03-25T00:36:05.945Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:22:11.710Z
@@ -24,7 +24,10 @@ ___
 |-----|-------|
 | Content-Type | application/json |
 | Accept | application/json |
-| X-XSRF-Token | <token value> |
+| X-XSRF-Token | `<token value>` |
+
+> See [Authentication](/authentication) for info on how to get the `X-XSRF-Token` value.
+{.is-info}
 
 ## Body Data
 
