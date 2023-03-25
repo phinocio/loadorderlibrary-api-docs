@@ -2,7 +2,7 @@
 title: Lists
 description: Overview for lists
 published: true
-date: 2023-03-25T01:26:42.151Z
+date: 2023-03-25T01:27:10.913Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:27.211Z
@@ -37,7 +37,7 @@ The name of the list is, well, what the list is called. List names are not uniqu
 
 | Name | Type   | User Controllable |
 | ---- | ------ | ----------------- |
-| name | string | No                |
+| slug | string | No                |
 
 Slugs are generated on a "first come, first serve" basis based on the `name` of the list. The first person to create a list titled `My Awesome List!` will get the slug `my-awesome-list`. The next person will have a `-1` appended to the end, creating a `my-awesome-list-1` slug, and onwards. 
 
