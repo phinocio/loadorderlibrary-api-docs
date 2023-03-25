@@ -2,16 +2,11 @@
 title: Login
 description: Login a user
 published: true
-date: 2023-03-25T00:28:59.812Z
+date: 2023-03-25T00:29:18.597Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:32:46.930Z
 ---
-
-Login a user.
-
-___
-
 
 **URL:** `/login`
 **HTTP Method:** `POST`
