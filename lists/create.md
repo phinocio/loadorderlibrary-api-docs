@@ -2,7 +2,7 @@
 title: Create
 description: Create a list
 published: true
-date: 2023-03-25T00:59:33.241Z
+date: 2023-03-25T01:01:16.404Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:02.897Z
@@ -29,17 +29,17 @@ ___
 ## Body Data
 
 
-| Property   | Type     | Required | Description                                                                                                              |
-|------------|----------|----------|--------------------------------------------------------------------------------------------------------------------------|
-| name       | string   | Yes      | The name of the list                                                                                              |
-| game       | integer  | Yes      | The ID of the game the list is for                                                                                |
-| description | string   | Yes      | A brief description of the list                                                                                    |
-| version    | string   | No       | The version of the list                                                                                            |
-| website    | string   | No       | The URL of the list's website.                                                                                      |
-| discord    | string   | No       | The URL of the list's Discord server.                                                                               |
-| readme     | string   | No       | The URL of the list's readme file.                                                                                  |
-| private    | boolean  | No       | Whether the list is private. Defaults to false.                                                                     |
-| expires    | string   | No       | The expiration time of the list. Valid values are "3h", "3d", "1w", or "perm". If this property is not provided, the default value will be determined based on whether the user is logged in or not. |
+| Property   | Type     | Required | Description |
+|------------|----------|----------|-------------|
+| name       | string   | Yes      | The name of the list |
+| game       | integer  | Yes      | The ID of the game the list is for |
+| description | string   | Yes      | A brief description of the list   |
+| version    | string   | No       | The version of the list            |
+| website    | string   | No       | The URL of the list's website     |
+| discord    | string   | No       | The URL of the list's Discord server |
+| readme     | string   | No       | The URL of the list's readme file |
+| private    | boolean  | No       | Whether the list is private. Defaults to false |
+| expires    | string   | No       | The expiration time of the list. Valid values are "3h", "3d", "1w", or "perm". If this property is not provided, the default value will be determined based on whether the user is logged in or not. Default for anonymous lists is 24h, for logged in is permanent |
 
 
 ## Example HTTP Responses
