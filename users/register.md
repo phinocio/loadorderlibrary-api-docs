@@ -2,7 +2,7 @@
 title: Register a User
 description: API Request for registering a user
 published: true
-date: 2023-03-25T00:19:32.666Z
+date: 2023-03-25T00:19:59.750Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:22:11.710Z
@@ -46,7 +46,7 @@ ___
 ""
 ```
 
-## Error Responses
+### Error Responses
 
 **Code:** `HTTP 422 UNPROCESSABLE ENTITY`
 **Content:**
@@ -67,8 +67,6 @@ ___
 ## Example Usage
 
 `POST /register`
-
-with the following body data:
 
 ```json
 {
