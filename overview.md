@@ -2,7 +2,7 @@
 title: Overview
 description: Short overview of the API
 published: true
-date: 2023-03-18T22:37:24.274Z
+date: 2023-03-25T01:21:25.499Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:37:24.274Z
@@ -22,4 +22,5 @@ The main route for API requests is `https://api.loadorderlibrary.com/v1`
 # Resources
 
 - [User *User resource and actions*](/users)
+- [List *Lists resource and actions*](/lists)
 {.links-list}
