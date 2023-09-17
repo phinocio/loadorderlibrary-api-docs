@@ -2,7 +2,7 @@
 title: Users
 description: Overview of Users resource
 published: true
-date: 2023-03-25T00:46:23.614Z
+date: 2023-09-17T22:25:51.266Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T22:23:25.613Z
@@ -12,9 +12,7 @@ A user is a... user. They can own lists, edit them, delete them, etc. While a us
 
 # List of Actions
 
-- [Register *Register a user*](/users/register)
-- [Login *Login a user*](/users/login)
-- [Get Info *View a user's info*](/users/view)
+- [View *View a user's info*](/users/view)
 - [Delete *Delete a user*](/users/delete)
 {.links-list}
 
