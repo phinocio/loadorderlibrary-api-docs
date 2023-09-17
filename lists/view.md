@@ -2,7 +2,7 @@
 title: View
 description: View a list
 published: true
-date: 2023-09-17T23:29:00.405Z
+date: 2023-09-17T23:30:27.274Z
 tags: lists
 editor: markdown
 dateCreated: 2023-09-17T23:23:48.451Z
@@ -32,7 +32,7 @@ None
 
 ## Success Response
 
-**Code:** `HTTP 201 CREATED`
+**Code:** `HTTP 200 OK`
 **Content:**
 
 ```json
@@ -125,45 +125,11 @@ None
 
 ## Error Responses
 
-**Code:** `HTTP 422 UNPROCESSABLE ENTITY`
-**Content:**
-```json
-{
-    "message": "The game field is required.",
-    "errors": {
-        "game": [
-            "The game field is required."
-        ]
-    }
-}
-```
+There *shouldn't* be any in normal operation. Maybe some 503 when deploying new code, or if there's a network issue.
 
-**Code:** `HTTP 403 FORBIDDEN`
-**Content:**
-```json
-{
-    "message": "Invalid ability provided."
-}
-```
 
 # Example Usage
 
-`POST /v1/lists`
+`GET /v1/lists`
 
-```json
-{
-    "name": "My Load Order",
-    "game": 1,
-    "description": "This is my amazing load order.",
-    "files[]": [file, file], // Files must be, well, files.
-    "version": "1.0.0",
-    "website": "https://example.com/loadorder",
-    "discord": "https://discord.gg/example",
-    "readme": "https://example.com/loadorder/readme.txt",
-    "private": true,
-    "expires": "1w"
-}
-
-```
-
-This will create a list title `My Load Order` that is private and expires in one week.
+`GET /v1/lists/my-awesome-list`
