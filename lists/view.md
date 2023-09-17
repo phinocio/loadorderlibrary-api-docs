@@ -2,7 +2,7 @@
 title: View
 description: View a list
 published: true
-date: 2023-09-17T23:31:12.008Z
+date: 2023-09-17T23:33:10.472Z
 tags: lists
 editor: markdown
 dateCreated: 2023-09-17T23:23:48.451Z
@@ -123,7 +123,7 @@ None
 }
 ```
 
-## Single Lists Success Response
+## Single List Success Response
 
 **Code:** `HTTP 200 OK`
 **Content:**
