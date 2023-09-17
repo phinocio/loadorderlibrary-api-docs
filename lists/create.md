@@ -2,7 +2,7 @@
 title: Create
 description: Create a list
 published: true
-date: 2023-09-17T22:41:32.257Z
+date: 2023-09-17T22:51:50.077Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:02.897Z
@@ -57,7 +57,7 @@ ___
         "slug": "a-test-list-3",
         "url": "/v1/lists/a-test-list-3",
         "description": "A Description about the test list!",
-        "website": "test.com",
+        "website": "example.com",
         "discord": "example.com",
         "readme": null,
         "private": true,
@@ -66,31 +66,11 @@ ___
         "updated": "2023-03-25T01:19:17.000000Z",
         "author": {
             "name": "Test22",
-            "email": null,
             "verified": false,
-            "admin": false,
-            "created": "2023-03-25T00:11:01.000000Z",
-            "updated": "2023-03-25T00:11:01.000000Z"
         },
         "game": {
             "name": "TESIII Morrowind"
         },
-        "files": [
-            {
-                "name": "99b9f8735fbea0202267dc71047c1c31-plugins.txt",
-                "clean_name": "plugins.txt",
-                "bytes": 9480,
-                "created": "2023-03-24T23:39:03.000000Z",
-                "updated": "2023-03-24T23:39:03.000000Z"
-            },
-            {
-                "name": "a7e2ec953166e7661b0c00d308a73c9d-modlist.txt",
-                "clean_name": "modlist.txt",
-                "bytes": 19253,
-                "created": "2023-03-24T23:39:03.000000Z",
-                "updated": "2023-03-24T23:39:03.000000Z"
-            }
-        ],
         "links": {
             "url": "http://localhost:3000/lists/a-test-list-3",
             "self": "http://localhost/v1/lists/a-test-list-3"
