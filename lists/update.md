@@ -2,13 +2,17 @@
 title: Update
 description: How to update a list.
 published: true
-date: 2023-09-17T22:42:45.979Z
+date: 2023-09-17T22:43:50.610Z
 tags: lists
 editor: markdown
 dateCreated: 2023-09-17T22:32:19.883Z
 ---
 
 Update a list. Updating a list request an account.
+
+> Updating a list effectively replaces it. Ensure that all fields are filled out even if it's not changing any data.
+{.is-info}
+
 
 ---
 
