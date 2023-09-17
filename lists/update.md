@@ -2,7 +2,7 @@
 title: Update
 description: How to update a list.
 published: true
-date: 2023-09-17T22:43:50.610Z
+date: 2023-09-17T22:44:39.947Z
 tags: lists
 editor: markdown
 dateCreated: 2023-09-17T22:32:19.883Z
@@ -118,6 +118,14 @@ Update a list. Updating a list request an account.
             "The game field is required."
         ]
     }
+}
+```
+
+**Code:** `HTTP 401 UNAUTHENTICATED`
+**Content:**
+```json
+{
+    "message": "Unauthenticated."
 }
 ```
 
