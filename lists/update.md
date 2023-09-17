@@ -2,7 +2,7 @@
 title: Update
 description: How to update a list.
 published: true
-date: 2023-09-17T22:46:24.317Z
+date: 2023-09-17T22:48:16.258Z
 tags: lists
 editor: markdown
 dateCreated: 2023-09-17T22:32:19.883Z
@@ -138,6 +138,8 @@ Update a list. Updating a list request an account.
 ```
 
 # Example Usage
+
+Better examples soon.
 
 `POST /v1/lists/{slug}`
 
