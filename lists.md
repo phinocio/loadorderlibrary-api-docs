@@ -2,7 +2,7 @@
 title: Lists
 description: Overview for lists
 published: true
-date: 2023-03-25T01:27:10.913Z
+date: 2023-09-17T22:48:58.255Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:27.211Z
@@ -17,6 +17,7 @@ A list is a collection of mods created by one or more authors. For Bethesda game
 
 - [Create *Create a list*](/lists/create)
 - [View *View lists*](/lists/view)
+- [Update *Update a list*](/lists/update)
 - [Delete *Delete a list*](/lists/delete)
 {.links-list}
 
