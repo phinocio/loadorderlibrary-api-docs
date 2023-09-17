@@ -2,7 +2,7 @@
 title: Authentication
 description: Authentication options for the API
 published: true
-date: 2023-09-17T21:54:40.725Z
+date: 2023-09-17T21:55:54.379Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T03:53:52.717Z
@@ -62,3 +62,7 @@ Replace `<your-token-here>` with the token, example:
 ```
 Authorization: Bearer 8|tWvHkRdVUlmJJNr6kKcjXhUurWTGfnVjTeEuo7L357075906
 ```
+
+# Examples
+
+Examples coming soon.
