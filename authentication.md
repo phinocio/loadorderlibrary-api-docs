@@ -2,7 +2,7 @@
 title: Authentication
 description: Authentication options for the API
 published: true
-date: 2023-09-17T21:46:35.170Z
+date: 2023-09-17T21:46:49.618Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T03:53:52.717Z
@@ -29,7 +29,7 @@ From there, enter a name you will remember and choose the permissions, at the mo
 | --- | --- |
 | Create | Allows you to create a list |
 | Read | Currently unused |
-| Update | Allow you to update your lists and account info |
+| Update | Allows you to update your lists and account info |
 | Delete | Allows you to delete your lists and entire user account |
 
 > Permissions will become more granular in the future, allow you to scope it to allow things like deleting a list but *not* the entire account. I'm also considering not allowing account deletion via API Tokens, if you have some feedback, let me know!
