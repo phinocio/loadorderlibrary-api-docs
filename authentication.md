@@ -2,7 +2,7 @@
 title: Authentication
 description: Authentication options for the API
 published: true
-date: 2023-09-17T22:03:38.313Z
+date: 2023-09-17T22:08:43.981Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T03:53:52.717Z
