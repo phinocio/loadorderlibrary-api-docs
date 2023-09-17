@@ -2,7 +2,7 @@
 title: Update
 description: How to update a list.
 published: true
-date: 2023-09-17T22:44:39.947Z
+date: 2023-09-17T22:46:24.317Z
 tags: lists
 editor: markdown
 dateCreated: 2023-09-17T22:32:19.883Z
@@ -126,6 +126,14 @@ Update a list. Updating a list request an account.
 ```json
 {
     "message": "Unauthenticated."
+}
+```
+
+**Code:** `HTTP 403 FORBIDDEN`
+**Content:**
+```json
+{
+    "message": "Invalid ability provided."
 }
 ```
 
