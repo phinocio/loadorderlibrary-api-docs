@@ -2,7 +2,7 @@
 title: Create
 description: Create a list
 published: true
-date: 2023-03-25T01:19:30.550Z
+date: 2023-09-17T22:41:19.499Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:02.897Z
@@ -23,10 +23,10 @@ ___
 | Accept | application/json |
 | X-XSRF-Token | `<token value>` |
 
-> See [Authentication](/authentication) for info on how to get the `X-XSRF-Token` value.
+> See [Authentication](/authentication) for info on how to get an API Token.
 {.is-info}
 
-## Body Data
+# Body Data
 
 
 | Property   | Type     | Required | Description |
@@ -43,9 +43,9 @@ ___
 | expires    | string   | No       | The expiration time of the list. Valid values are `3h`, `24h`, `3d`, `1w`, or `perm`. If this property is not provided, the default value will be determined based on whether the user is logged in or not. Default for anonymous lists is `24h`, for logged in is `perm` |
 
 
-## Example HTTP Responses
+# Example HTTP Responses
 
-### Success Response
+## Success Response
 
 **Code:** `HTTP 201 CREATED`
 **Content:**
@@ -100,7 +100,7 @@ ___
 }
 ```
 
-### Error Responses
+## Error Responses
 
 **Code:** `HTTP 422 UNPROCESSABLE ENTITY`
 **Content:**
@@ -115,7 +115,7 @@ ___
 }
 ```
 
-## Example Usage
+# Example Usage
 
 `POST /v1/lists`
 
