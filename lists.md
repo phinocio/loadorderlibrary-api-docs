@@ -2,7 +2,7 @@
 title: Lists
 description: Overview for lists
 published: true
-date: 2023-09-17T23:20:31.166Z
+date: 2023-09-17T23:22:39.264Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:27.211Z
@@ -24,23 +24,18 @@ A list is a collection of mods created by one or more authors. For Bethesda game
 
 # Attributes
 
-Note that `User Controllable` is referring to attributes that can be used in a `POST` request for creating a list - hence why `slug` is listed as not user controllable, when it *kind of* is.
-
-## Name
-
-| Name | Type   | User Controllable |
-| ---- | ------ | ----------------- |
-| name | string | Yes               |
-
-The name of the list is, well, what the list is called. List names are not unique in the database - there can be any number of `My Awesome List!` lists.
-
-## Slug
-
-| Name | Type   | User Controllable |
-| ---- | ------ | ----------------- |
-| slug | string | No                |
-
-Slugs are generated on a "first come, first serve" basis based on the `name` of the list. The first person to create a list titled `My Awesome List!` will get the slug `my-awesome-list`. The next person will have a `-1` appended to the end, creating a `my-awesome-list-1` slug, and onwards. 
+| Name   | Type     | Required | Description |
+|------------|----------|----------|-------------|
+| name       | string   | Yes      | The name of the list |
+| game       | integer  | Yes      | The ID of the game the list is for |
+| description | string   | Yes      | A brief description of the list   |
+| files[]    | array    | Yes      | The files of the list. At least one file is required |
+| version    | string   | No       | The version of the list            |
+| website    | string   | No       | The URL of the list's website     |
+| discord    | string   | No       | The URL of the list's Discord server |
+| readme     | string   | No       | The URL of the list's readme file |
+| private    | boolean  | No       | Whether the list is private. Defaults to false |
+| expires    | string   | No       | The expiration time of the list. Valid values are `3h`, `24h`, `3d`, `1w`, or `perm`. If this property is not provided, the default value will be determined based on whether the user is logged in or not. Default for anonymous lists is `24h`, for logged in is `perm` |
 
 # Valid Files
 
