@@ -2,7 +2,7 @@
 title: View Info
 description: View a users info.
 published: true
-date: 2023-09-17T22:22:47.629Z
+date: 2023-09-17T22:23:05.236Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:42:25.448Z
@@ -62,6 +62,7 @@ none
 ## Example Usage
 
 
+### JavaScript
 ```js
 async function getUser() {
   const resp = await fetch('http://localhost:8000/v1/user', {
