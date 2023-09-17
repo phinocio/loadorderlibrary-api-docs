@@ -2,7 +2,7 @@
 title: View Info
 description: View a users info.
 published: true
-date: 2023-09-17T22:23:05.236Z
+date: 2023-09-17T22:24:01.316Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:42:25.448Z
@@ -25,13 +25,13 @@ ___
 > See [Authentication](/authentication) for info on how to get an API Token.
 {.is-info}
 
-## Body Data
+# Body Data
 
 none
 
-## Example HTTP Responses
+# Example HTTP Responses
 
-### Success Response
+## Success Response
 
 **Code:** `HTTP 200 OK`
 **Content:**
@@ -49,7 +49,7 @@ none
 }
 ```
 
-### Error Responses
+## Error Responses
 
 **Code:** `HTTP 401 UNAUTHENTICATED`
 **Content:**
@@ -59,10 +59,10 @@ none
 }
 ```
 
-## Example Usage
+# Example Usage
 
 
-### JavaScript
+## JavaScript
 ```js
 async function getUser() {
   const resp = await fetch('http://localhost:8000/v1/user', {
