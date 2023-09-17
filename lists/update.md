@@ -2,7 +2,7 @@
 title: Update
 description: How to update a list.
 published: true
-date: 2023-09-17T22:48:16.258Z
+date: 2023-09-17T22:49:43.262Z
 tags: lists
 editor: markdown
 dateCreated: 2023-09-17T22:32:19.883Z
@@ -53,7 +53,7 @@ Update a list. Updating a list request an account.
 
 ## Success Response
 
-**Code:** `HTTP 201 CREATED`
+**Code:** `HTTP 200 OK`
 **Content:**
 
 ```json
