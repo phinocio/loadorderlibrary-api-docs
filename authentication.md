@@ -2,7 +2,7 @@
 title: Authentication
 description: Authentication options for the API
 published: true
-date: 2023-09-17T21:50:49.537Z
+date: 2023-09-17T21:53:24.550Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T03:53:52.717Z
@@ -45,3 +45,18 @@ Once you click on "Create Token", a message will above above showing you the tok
 
 > Make sure you copy this token somewhere safe! It will not be shown again and you will need to generate a new token.
 {.is-warning}
+
+
+# Using the API Token
+
+To use the API token, simply send requests with the `Authorization` HTTP header.
+
+```
+Authorization: Bearer <your-token-here>
+```
+
+Replace `<your-token-here>` with the token, example:
+
+```
+Authorization: Bearer 8|tWvHkRdVUlmJJNr6kKcjXhUurWTGfnVjTeEuo7L357075906
+```
