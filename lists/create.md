@@ -2,7 +2,7 @@
 title: Create
 description: Create a list
 published: true
-date: 2023-09-17T23:21:32.440Z
+date: 2023-09-17T23:22:24.222Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:02.897Z
