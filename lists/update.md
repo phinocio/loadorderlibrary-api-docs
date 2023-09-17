@@ -2,7 +2,7 @@
 title: Update
 description: How to update a list.
 published: true
-date: 2023-09-17T22:49:43.262Z
+date: 2023-09-17T22:49:56.312Z
 tags: lists
 editor: markdown
 dateCreated: 2023-09-17T22:32:19.883Z
@@ -82,22 +82,6 @@ Update a list. Updating a list request an account.
         "game": {
             "name": "TESIII Morrowind"
         },
-        "files": [
-            {
-                "name": "99b9f8735fbea0202267dc71047c1c31-plugins.txt",
-                "clean_name": "plugins.txt",
-                "bytes": 9480,
-                "created": "2023-03-24T23:39:03.000000Z",
-                "updated": "2023-03-24T23:39:03.000000Z"
-            },
-            {
-                "name": "a7e2ec953166e7661b0c00d308a73c9d-modlist.txt",
-                "clean_name": "modlist.txt",
-                "bytes": 19253,
-                "created": "2023-03-24T23:39:03.000000Z",
-                "updated": "2023-03-24T23:39:03.000000Z"
-            }
-        ],
         "links": {
             "url": "http://localhost:3000/lists/a-test-list-3",
             "self": "http://localhost/v1/lists/a-test-list-3"
