@@ -2,7 +2,7 @@
 title: Authentication
 description: Authentication options for the API
 published: true
-date: 2023-09-17T21:37:32.309Z
+date: 2023-09-17T21:43:03.232Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T03:53:52.717Z
@@ -16,3 +16,20 @@ More info on getting an authentication token will be available as I work on the 
 {.is-info}
 
 To use your existing account with the API, generate an API Token. 
+
+# Getting an API Token
+
+To get an API Token, log in to the website then navigate to `/profile/api-tokens` ("API Tokens" in the dropdown on the top right).
+
+![Create an API Token](/authentication/api_tokens.png)
+
+From there, enter a name you will remember and choose the permissions, at the moment the abilities map as such:
+
+| Ability | What you can do |
+| --- | --- |
+| Create | Allows you to create a list |
+| Read | Currently unused |
+| Update | Allow you to update your lists and account info |
+| Delete | Allows you to delete your lists and entire user account |
+
+
