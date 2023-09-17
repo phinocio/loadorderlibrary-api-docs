@@ -2,7 +2,7 @@
 title: View Info
 description: View a users info.
 published: true
-date: 2023-09-17T22:20:24.254Z
+date: 2023-09-17T22:22:47.629Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:42:25.448Z
@@ -67,7 +67,7 @@ async function getUser() {
   const resp = await fetch('http://localhost:8000/v1/user', {
     headers: {
       Accept: 'application/json',
-      "Authorization": "Bearer 8|tWvHkRdVUlmJJNr6kKcjXhUurWTGfnVjTeEuo7L357075906"
+      "Authorization": "Bearer <your-api-token>"
     },
   })
 
