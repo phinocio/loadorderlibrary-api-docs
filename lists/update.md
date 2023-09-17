@@ -2,7 +2,7 @@
 title: Update
 description: How to update a list.
 published: true
-date: 2023-09-17T22:49:56.312Z
+date: 2023-09-17T22:50:17.497Z
 tags: lists
 editor: markdown
 dateCreated: 2023-09-17T22:32:19.883Z
@@ -73,11 +73,7 @@ Update a list. Updating a list request an account.
         "updated": "2023-03-25T01:19:17.000000Z",
         "author": {
             "name": "Test22",
-            "email": null,
             "verified": false,
-            "admin": false,
-            "created": "2023-03-25T00:11:01.000000Z",
-            "updated": "2023-03-25T00:11:01.000000Z"
         },
         "game": {
             "name": "TESIII Morrowind"
