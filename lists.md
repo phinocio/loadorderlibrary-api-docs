@@ -2,7 +2,7 @@
 title: Lists
 description: Overview for lists
 published: true
-date: 2023-09-17T23:15:12.792Z
+date: 2023-09-17T23:20:31.166Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:27.211Z
@@ -71,3 +71,6 @@ Below is a listing of the valid file names a list can have. If there's some miss
 - skyrim.ini
 - skyrimcustom.ini
 - skyrimprefs.ini
+- starfield.ini
+- starfieldcustom.ini
+- starfieldprefs.ini
