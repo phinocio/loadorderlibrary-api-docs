@@ -2,7 +2,7 @@
 title: Create
 description: Create a list
 published: true
-date: 2023-09-17T22:41:19.499Z
+date: 2023-09-17T22:41:32.257Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:02.897Z
@@ -19,9 +19,8 @@ ___
 
 | Key | Value |
 |-----|-------|
-| Content-Type | application/json |
-| Accept | application/json |
-| X-XSRF-Token | `<token value>` |
+| Accept | `application/json` |
+| Authorization | `<your-api-token>` |
 
 > See [Authentication](/authentication) for info on how to get an API Token.
 {.is-info}
