@@ -2,7 +2,7 @@
 title: View Info
 description: View a users info.
 published: true
-date: 2023-03-25T00:42:25.448Z
+date: 2023-09-17T22:20:24.254Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:42:25.448Z
@@ -19,11 +19,10 @@ ___
 
 | Key | Value |
 |-----|-------|
-| Content-Type | application/json |
-| Accept | application/json |
-| X-XSRF-Token | `<token value>` |
+| Accept | `application/json` |
+| Authorization | `Bearer <your-api-token>` |
 
-> See [Authentication](/authentication) for info on how to get the `X-XSRF-Token` value.
+> See [Authentication](/authentication) for info on how to get an API Token.
 {.is-info}
 
 ## Body Data
@@ -62,6 +61,20 @@ none
 
 ## Example Usage
 
-`GET /v1/user`
+
+```js
+async function getUser() {
+  const resp = await fetch('http://localhost:8000/v1/user', {
+    headers: {
+      Accept: 'application/json',
+      "Authorization": "Bearer 8|tWvHkRdVUlmJJNr6kKcjXhUurWTGfnVjTeEuo7L357075906"
+    },
+  })
+
+  console.log(await resp.json())
+}
+
+getUser()
+```
 
 This will get the current authenticated user's info and return it.
