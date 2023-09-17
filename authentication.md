@@ -2,7 +2,7 @@
 title: Authentication
 description: Authentication options for the API
 published: true
-date: 2023-09-17T21:48:15.898Z
+date: 2023-09-17T21:50:49.537Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T03:53:52.717Z
@@ -25,7 +25,7 @@ To get an API Token, log in to the website then navigate to `/profile/api-tokens
 
 From there, enter a name you will remember and choose the permissions, at the moment the abilities map as such:
 
-> Permissions will become more granular in the future, allow you to scope it to allow things like deleting a list but *not* the entire account. I'm also considering not allowing account deletion via API Tokens, if you have some feedback, let me know!
+> Permissions will become more granular in the future, allowing you to scope it to allow things like deleting a list but *not* the entire account. I'm also considering not allowing account deletion via API Tokens, if you have some feedback, let me know!
 {.is-info}
 
 
@@ -37,5 +37,11 @@ From there, enter a name you will remember and choose the permissions, at the mo
 | Delete | Allows you to delete your lists and entire user account |
 
 
+---
+
+Once you click on "Create Token", a message will above above showing you the token. Make sure to copy it to a secure location.
 
 ![api_token_created.png](/authentication/api_token_created.png)
+
+> Make sure you copy this token somewhere safe! It will not be shown again and you will need to generate a new token.
+{.is-warning}
