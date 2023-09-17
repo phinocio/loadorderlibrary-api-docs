@@ -2,7 +2,7 @@
 title: Lists
 description: Overview for lists
 published: true
-date: 2023-09-17T22:48:58.255Z
+date: 2023-09-17T23:15:12.792Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:27.211Z
@@ -45,6 +45,10 @@ Slugs are generated on a "first come, first serve" basis based on the `name` of 
 # Valid Files
 
 Below is a listing of the valid file names a list can have. If there's some missing or there that shouldn't be, please let me know.
+
+> This list is incomplete. There's files from other games that aren't present. If you know of any please comment on [this issue](https://github.com/phinocio/loadorderlibrary/issues/39).
+{.is-info}
+
 
 - enblocal.ini
 - enbseries.ini
