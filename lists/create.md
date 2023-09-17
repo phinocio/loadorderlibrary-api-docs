@@ -2,7 +2,7 @@
 title: Create
 description: Create a list
 published: true
-date: 2023-09-17T22:51:50.077Z
+date: 2023-09-17T23:21:32.440Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:02.897Z
@@ -28,7 +28,7 @@ ___
 # Body Data
 
 
-| Property   | Type     | Required | Description |
+| Name   | Type     | Required | Description |
 |------------|----------|----------|-------------|
 | name       | string   | Yes      | The name of the list |
 | game       | integer  | Yes      | The ID of the game the list is for |
