@@ -2,7 +2,7 @@
 title: Create
 description: Create a list
 published: true
-date: 2023-09-17T23:22:24.222Z
+date: 2023-09-17T23:24:26.155Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-25T00:50:02.897Z
@@ -91,6 +91,14 @@ ___
             "The game field is required."
         ]
     }
+}
+```
+
+**Code:** `HTTP 403 FORBIDDEN`
+**Content:**
+```json
+{
+    "message": "Invalid ability provided."
 }
 ```
 
