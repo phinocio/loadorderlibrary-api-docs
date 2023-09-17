@@ -2,7 +2,7 @@
 title: Update
 description: How to update a list.
 published: true
-date: 2023-09-17T22:50:17.497Z
+date: 2023-09-17T22:50:23.019Z
 tags: lists
 editor: markdown
 dateCreated: 2023-09-17T22:32:19.883Z
@@ -64,7 +64,7 @@ Update a list. Updating a list request an account.
         "slug": "a-test-list-3",
         "url": "/v1/lists/a-test-list-3",
         "description": "A Description about the test list!",
-        "website": "test.com",
+        "website": "example.com",
         "discord": "example.com",
         "readme": null,
         "private": true,
