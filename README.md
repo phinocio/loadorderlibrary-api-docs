@@ -1,2 +1,5 @@
-# api-docs
-Load Order Library API Documentation
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+
+# Load Order Library API Docs
+
+API documentation for Load Order Library.
