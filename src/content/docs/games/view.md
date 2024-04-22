@@ -1,0 +1,5 @@
+---
+title: View Games
+---
+
+WiP
