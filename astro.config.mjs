@@ -14,6 +14,27 @@ export default defineConfig({
 				github: "https://github.com/withastro/starlight",
 				twitter: "https://bsky.app/profile/phinoc.io",
 			},
+			sidebar: [
+				{ label: "Introduction", link: "/" },
+				{
+					label: "Basics",
+					items: [
+						{ label: "General Usage", link: "/basics/general-usage/" },
+						{ label: "Authentication", link: "/basics/authentication/" },
+						{ label: "Error Codes", link: "/basics/error-codes/" },
+					],
+				},
+				{
+					label: "Lists",
+					items: [
+						{ label: "View Lists", link: "/lists/view/" },
+						{ label: "Create Lists", link: "/lists/create/" },
+						{ label: "Update Lists", link: "/lists/update/" },
+						{ label: "Delete Lists", link: "/lists/delete/" },
+						{ label: "Compare Lists", link: "/lists/compare/" },
+					],
+				},
+			],
 		}),
 	],
 });
