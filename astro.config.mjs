@@ -27,6 +27,7 @@ export default defineConfig({
 				{
 					label: "Lists",
 					items: [
+						{ label: "Lists Overview", link: "/lists/overview/" },
 						{ label: "View Lists", link: "/lists/view/" },
 						{ label: "Create Lists", link: "/lists/create/" },
 						{ label: "Update Lists", link: "/lists/update/" },

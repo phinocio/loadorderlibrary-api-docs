@@ -1,0 +1,58 @@
+---
+title: General Usage
+---
+
+The main intended use of the API is to allow 3rd party tools to integrate with Load Order Library.
+An example - though a first party tool - is the [MO2 Plugin](https://www.nexusmods.com/site/mods/652) that
+uploads the current profile to the site.
+
+A few things to keep in mind when using the API:
+
+:::caution
+Please always send requests with `Accept: application/json` header. Due to the underlying framework, without
+this, requests (mainly errors) will sometimes be in html format.
+:::
+
+## Testing Domains
+
+When testing a program/tool, please make use of these routes.
+
+Base route: `https://testingapi.loadorderlibrary.com/v1`.
+
+To view how lists will look on the website itself, use either:
+
+- https://testing.loadorderlibrary.com
+- https://next.loadorderlibrary.com
+
+## Production Domains
+
+When your tool is ready to go to production itself, use these routes.
+
+Base route: `https://api.loadorderlibrary.com/v1`
+
+And the main site is https://loadorderlibrary.com
+
+:::note[Example Syntax]
+For the rest of the docs, examples will make use of a `baseRoute` variable, replace that with the route
+you are working with.
+:::
+
+For example:
+
+
+import { Code, Tabs, TabItem } from '@astrojs/starlight/components';
+export const jsExample = `async function getUser() {
+    const resp = await fetch(\`\$\{baseUrl\}/user\`, {
+        headers: {
+            Accept: "application/json",
+            Authorization: "Bearer <your-api-token>"
+        },
+    });
+    console.log(await resp.json());
+}`;
+
+<Tabs>
+  <TabItem label="JavaScript" icon="seti:javascript">
+    <Code code={jsExample} lang="js" />
+  </TabItem>
+</Tabs>
