@@ -1,0 +1,90 @@
+---
+title: Lists Overview
+---
+
+A list is a collection of mods created by one or more authors. For Bethesda games they include a `modlist.txt`, `plugins.txt` among other files.
+Lists support all 4 of the CRUD (Create, Read, Update, Delete) operations, though updating and deleting require an API Token.
+
+Creating a list with your existing user account also requires an API Token.
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+<LinkCard
+  title="Creating Lists"
+  description="Learn how to create a list using the API."
+  href="/lists/create/"
+/>
+
+<LinkCard
+title="Viewing Lists"
+description="Learn how to view all lists or a single list using the API."
+href="/lists/view/"
+/>
+
+<LinkCard
+  title="Updating Lists"
+  description="Learn how to update a list using the API. Note that updating requires an API Token."
+  href="/lists/update/"
+/>
+
+<LinkCard
+  title="Deleting Lists"
+  description="Learn how to delete a list using the API. Note that deleting requires an API Token."
+  href="/lists/delete/"
+/>
+
+<LinkCard
+  title="Comparing Lists"
+  description="Clearn how to compare lists using the API."
+  href="/lists/compare/"
+/>
+
+## Attributes
+
+| Name   | Type     | Required | Description |
+|------------|----------|----------|-------------|
+| name       | string   | Yes      | The name of the list |
+| game       | integer  | Yes      | The ID of the game the list is for |
+| description | string   | Yes      | A brief description of the list   |
+| files[]    | array    | Yes      | The files of the list. At least one file is required |
+| version    | string   | No       | The version of the list            |
+| website    | string   | No       | The URL of the list's website     |
+| discord    | string   | No       | The URL of the list's Discord server |
+| readme     | string   | No       | The URL of the list's readme file |
+| private    | boolean  | No       | Whether the list is private. Defaults to false |
+| expires    | string   | No       | The expiration time of the list. Valid values are `3h`, `24h`, `3d`, `1w`, or `perm`. If this property is not provided, the default value will be determined based on whether the user is logged in or not. Default for anonymous lists is `24h`, for logged in is `perm` |
+
+## Valid Files
+
+Below is a listing of the valid file names a list can have. If there's some missing or there that shouldn't be, please let me know.
+
+
+:::note
+This list is incomplete. There's files from other games that aren't present. If you know of any please comment on [this issue](https://github.com/phinocio/loadorderlibrary/issues/39).
+:::
+
+
+- enblocal.ini
+- enbseries.ini
+- fallout.ini
+- falloutprefs.ini
+- fallout4.ini
+- fallout4custom.ini
+- fallout4prefs.ini
+- geckcustom.ini
+- geckprefs.ini
+- loadorder.txt
+- mge.ini
+- modlist.txt
+- morrowind.ini
+- mwse-version.ini
+- oblivion.ini
+- oblivionprefs.ini
+- plugins.txt
+- settings.txt
+- skyrim.ini
+- skyrimcustom.ini
+- skyrimprefs.ini
+- starfield.ini
+- starfieldcustom.ini
+- starfieldprefs.ini

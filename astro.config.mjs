@@ -27,12 +27,12 @@ export default defineConfig({
 				{
 					label: "Lists",
 					items: [
-						{ label: "Lists Overview", link: "/lists/overview/" },
-						{ label: "View Lists", link: "/lists/view/" },
-						{ label: "Create Lists", link: "/lists/create/" },
-						{ label: "Update Lists", link: "/lists/update/" },
-						{ label: "Delete Lists", link: "/lists/delete/" },
-						{ label: "Compare Lists", link: "/lists/compare/" },
+						{ label: "Overview", link: "/lists/overview/" },
+						{ label: "Creating", link: "/lists/create/" },
+						{ label: "Viewing", link: "/lists/view/" },
+						{ label: "Updating", link: "/lists/update/" },
+						{ label: "Deleting", link: "/lists/delete/" },
+						{ label: "Comparing", link: "/lists/compare/" },
 					],
 				},
 			],
