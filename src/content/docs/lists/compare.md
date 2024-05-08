@@ -67,7 +67,6 @@ None.
                     "name": "9b76f507722d4a7d2bed09d2e42c3b6c-modlist.txt",
                     "clean_name": "modlist.txt",
                     "bytes": 1336,
-                    "content": ["pruned for docs"],
                     "created": "2024-05-06T21:59:33.000000Z",
                     "updated": "2024-05-06T21:59:33.000000Z"
                 },
@@ -75,7 +74,6 @@ None.
                     "name": "34ba75b3cc3f754a945b71f7e77e72a9-plugins.txt",
                     "clean_name": "plugins.txt",
                     "bytes": 9496,
-                    "content": ["pruned for docs"],
                     "created": "2024-05-06T21:59:33.000000Z",
                     "updated": "2024-05-06T21:59:33.000000Z"
                 },
@@ -83,7 +81,6 @@ None.
                     "name": "682aeca2cdfc38d288a8b5ede0f33404-starfield.ini",
                     "clean_name": "starfield.ini",
                     "bytes": 34,
-                    "content": ["pruned for docs"],
                     "created": "2024-05-06T21:59:33.000000Z",
                     "updated": "2024-05-06T21:59:33.000000Z"
                 },
@@ -91,7 +88,6 @@ None.
                     "name": "c144f62b2cce9e439f769800a0875057-starfieldcustom.ini",
                     "clean_name": "starfieldcustom.ini",
                     "bytes": 2031,
-                    "content": ["pruned for docs"],
                     "created": "2024-05-06T21:59:33.000000Z",
                     "updated": "2024-05-06T21:59:33.000000Z"
                 }
@@ -125,7 +121,6 @@ None.
                     "name": "34ba75b3cc3f754a945b71f7e77e72a9-plugins.txt",
                     "clean_name": "plugins.txt",
                     "bytes": 9496,
-                    "content": ["pruned for docs"],
                     "created": "2024-05-06T21:59:33.000000Z",
                     "updated": "2024-05-06T21:59:33.000000Z"
                 },
@@ -133,7 +128,6 @@ None.
                     "name": "682aeca2cdfc38d288a8b5ede0f33404-starfield.ini",
                     "clean_name": "starfield.ini",
                     "bytes": 34,
-                    "content": ["pruned for docs"],
                     "created": "2024-05-06T21:59:33.000000Z",
                     "updated": "2024-05-06T21:59:33.000000Z"
                 },
@@ -141,7 +135,6 @@ None.
                     "name": "c144f62b2cce9e439f769800a0875057-starfieldcustom.ini",
                     "clean_name": "starfieldcustom.ini",
                     "bytes": 2031,
-                    "content": ["pruned for docs"],
                     "created": "2024-05-06T21:59:33.000000Z",
                     "updated": "2024-05-06T21:59:33.000000Z"
                 },
@@ -149,7 +142,6 @@ None.
                     "name": "469e978c1e1fdb071c1a9463d3490fb4-starfieldprefs.ini",
                     "clean_name": "starfieldprefs.ini",
                     "bytes": 1936,
-                    "content": ["pruned for docs"],
                     "created": "2024-05-06T21:59:33.000000Z",
                     "updated": "2024-05-06T21:59:33.000000Z"
                 },
@@ -157,7 +149,6 @@ None.
                     "name": "84bc502949d7e164ad05f4e94f57836c-modlist.txt",
                     "clean_name": "modlist.txt",
                     "bytes": 1347,
-                    "content": ["pruned for docs"],
                     "created": "2024-05-08T17:45:33.000000Z",
                     "updated": "2024-05-08T17:45:33.000000Z"
                 }
