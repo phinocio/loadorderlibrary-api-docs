@@ -28,11 +28,22 @@ export default defineConfig({
 					label: "Lists",
 					items: [
 						{ label: "Overview", link: "/lists/overview/" },
-						{ label: "Creating", link: "/lists/create/" },
-						{ label: "Viewing", link: "/lists/view/" },
-						{ label: "Updating", link: "/lists/update/" },
-						{ label: "Deleting", link: "/lists/delete/" },
-						{ label: "Comparing", link: "/lists/compare/" },
+						{ label: "Creating a List", link: "/lists/create/" },
+						{ label: "Viewing Lists", link: "/lists/view/" },
+						{ label: "Updating List", link: "/lists/update/" },
+						{ label: "Deleting a List", link: "/lists/delete/" },
+						{ label: "Comparing Lists", link: "/lists/compare/" },
+					],
+				},
+				{
+					label: "Games",
+					items: [{ label: "Viewing Games", link: "/games/view" }],
+				},
+				{
+					label: "Users",
+					items: [
+						{ label: "Viewing User Info", link: "/users/view" },
+						{ label: "Managing API Tokens", link: "/users/tokens" },
 					],
 				},
 			],
