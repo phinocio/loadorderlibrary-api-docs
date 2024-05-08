@@ -2,6 +2,15 @@
 title: Error Codes
 ---
 
-WiP
+The Load Order Library API uses the following error codes:
 
-A list of error codes the API returns and what they mean.
+| Error Code | Meaning                                                                                                         |
+| ---------- | --------------------------------------------------------------------------------------------------------------- |
+| 400        | Bad Request -- Your request is invalid.                                                                         |
+| 401        | Unauthorized -- Your API key is likely wrong, or the provided token is not authorized for the action attempted. |
+| 403        | Forbidden -- You can't access this resource.                                                                    |
+| 404        | Not Found -- The specified resource could not be found.                                                         |
+| 405        | Method Not Allowed -- You sent a request to a resource with an invalid method.                                  |
+| 429        | Too Many Requests -- You're making too many requests.                                                           |
+| 500        | Internal Server Error -- We had a problem with our server. Try again later.                                     |
+| 503        | Service Unavailable -- We're temporarily offline, likely for maintenance. Please try again later.               |
