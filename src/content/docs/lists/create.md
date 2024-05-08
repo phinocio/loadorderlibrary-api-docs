@@ -74,6 +74,26 @@ For a list to be tied to your account, an [API token](/basics/authentication) is
 
 ### Error Responses
 
+**Code:** `HTTP 401 UNAUTHORIZED`
+
+**Content:**
+
+```json
+{
+    "message": "Unauthenticated. (Make sure the token is correct.)"
+}
+```
+
+**Code:** `HTTP 403 FORBIDDEN`
+
+**Content:**
+
+```json
+{
+    "message": "This action is forbidden. (Token doesn't have permission for this action.)"
+}
+```
+
 **Code:** `HTTP 422 UNPROCESSABLE ENTITY`
 
 **Content:**
@@ -84,16 +104,6 @@ For a list to be tied to your account, an [API token](/basics/authentication) is
     "errors": {
         "game": ["The game field is required."]
     }
-}
-```
-
-**Code:** `HTTP 403 FORBIDDEN`
-
-**Content:**
-
-```json
-{
-    "message": "Invalid ability provided."
 }
 ```
 
