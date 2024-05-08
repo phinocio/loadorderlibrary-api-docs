@@ -1,7 +1,10 @@
 ---
-title: API Tokens
+title: Managing API Tokens
+description: Information on managing your API tokens
 ---
 
-WiP
+:::danger[Token Management]
+A user can only manage API tokens on the website itself, not through the API.
+:::
 
-A user can only manage API tokens on the site itself, not through the API.
+Please [log in](https://loadorderlibrary.com/login) to the website to manage your API Tokens.
