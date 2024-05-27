@@ -240,6 +240,17 @@ There _shouldn't_ be any in normal operation. Maybe some 503 when deploying new 
 
 Also a 404 is expected if the list doesn't exist.
 
+## Filters
+
+Fetching lists supports a variety of filters as query parameters, please reference the table below.
+
+| Filter         | Values                                   | Note                                                                                   | Example                       |
+| -------------- | ---------------------------------------- | -------------------------------------------------------------------------------------- | ----------------------------- |
+| page[size]     | Number `1-900` or `all`                  | Controls how many lists are shown per page.                                            | `page[size]=5`                |
+| filter[author] | Name of an author                        | Used to return only lists by a specific author.                                        | `filter[author]=phinocio`     |
+| filter[game]   | Name of an game                          | Used to return only lists by a specific game.                                          | `filter[game]=TESV Skyrim SE` |
+| sort           | created or updated (- prefix to reverse) | Sort the result by list created or updated date. A `-` prefix shows most recent first. | `sort=-created`               |
+
 ## Example Usage
 
 `GET /v1/lists`
